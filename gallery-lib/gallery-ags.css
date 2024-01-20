@@ -1,0 +1,143 @@
+.slide {
+    /*height: 50rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    /*box-sizing: border-box;*/
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;;
+    padding: 0 3rem;
+}
+
+.gallery-draggable {
+    cursor: grabbing;
+}
+
+.gallery-line {
+    overflow: hidden;
+}
+
+.gallery-slide {
+    pointer-events: none;
+    width: 100%;
+    float: left;
+    transform: translateZ(0);
+    overflow: hidden;
+}
+/* Навигация */
+.gallery-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0.4rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.gallery-dot:hover,
+.gallery-dot-active {
+    background: #888;
+}
+
+/*.gallery-nav {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    padding: 1rem 0 0;*/
+/*}*/
+
+.gallery-nav button {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+/* Слайды (картинки) */
+.slide__text {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*.slide-1 {*/
+/*    background-size: cover;*/
+/*    background-image: url("../countryPhoto/Ukok_Plateau_2.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+.slide__text_ukok {
+    color: #817979;
+}
+
+/*.slide-2 {*/
+/*    background-size: cover;*/
+/*    background-image: url("../countryPhoto/167023.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+.slide__text_mars {
+    color: #0f0fe4;
+}
+
+/*.slide-3 {*/
+/*     background-size: cover;*/
+/*     background-image: url("../countryPhoto/P1134972.jpg");*/
+/*     background-repeat: no-repeat;*/
+/* }*/
+
+/*.slide-4 {*/
+/*       background-size: cover;*/
+/*       background-image: url("../countryPhoto/Zolotye-gory-Altaya.jpg");*/
+/*       background-repeat: no-repeat;*/
+/*  }*/
+
+.gallery-nav-left,
+.gallery-nav-right {
+    text-indent: -1234em;
+    top: 50%;
+    margin-top: -4rem;
+    /*top: 0;*/
+    position: absolute;
+    width: 2rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.gallery-nav-disabled {
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.gallery-nav-left {
+    left: 0;
+    background: url("../gallery-lib/gallery-images/chevron-left.svg") no-repeat center;
+    background-size: contain;
+}
+
+.gallery-nav-right {
+    right: 0;
+    background: url("../gallery-lib/gallery-images/chevron-right.svg") no-repeat center;
+    background-size: contain;
+}
+
+@media  screen and (max-width: 850px){
+    .gallery {
+        padding: 0;
+    }
+    .gallery-nav {
+        display: none;
+    }
+}

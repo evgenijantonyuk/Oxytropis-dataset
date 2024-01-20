@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "font", sans-serif;
+    background-color: red;
+}
+
+
+/* glob */
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+/*//======================================*/
+
+.header {
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+.logo__block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.asu-usbs {
+    display: flex;
+}
+
+.asu-usbs_link {
+    display: flex;
+}
+
+.logo__asu {
+    width: 70px;
+    height: 70px;
+}
+
+.logo__text {
+    display: flex;
+    align-items: center;;
+}
+
+.input__text {
+    margin: 0;
+}
+
+.items {
+    width:  100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 100px;
+}
+
+.item:hover {
+    color: red;
+    transition: color 0.3s;
+}
+
+/*================ main ========================*/
+.main__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.key__header {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.species-key {
+    padding: 0 15px
+}
+
+/*===========================footer=========================*/
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    background-color: darkgrey;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__questions {
+    margin: 0;
+    padding: 0;
+}
+
+.my-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.my-email__link {}
