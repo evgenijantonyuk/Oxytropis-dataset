@@ -8,10 +8,10 @@
 	<title>Oxytropis</title>
 	<link href="styles/normalize.css" rel="stylesheet">
 	<link href="key.css" rel="stylesheet">
-	<script src="main.js" defer></script>
+	<script defer src="js/main.js"></script>
 </head>
 <body>
-<header class="header">
+<header class="header mainNav">
 	<div class="logo__block">
 		<div class="asu-usbs">
 			<a class="asu-usbs_link" href="https://www.asu.ru/" target="_blank">
@@ -19,10 +19,9 @@
 			<span class="logo__text">Алтайский<br> государственный<br> университет</span>
 		</div>
 		
-		<form action="#">
-			<input class="inputText" type="text">
-			<input class="submitForm" type="submit" value="Поиск по сайту">
-		</form>
+<!--		<div class="form__control-grope">-->
+<!--			<input class="input-text" type="text" placeholder="Поиск по странице">-->
+<!--		</div>-->
 		
 		<div class="asu-usbs">
 			<span class="logo__text">Южно&ndash;Сибирский<br> ботанический<br> сад</span>
@@ -954,16 +953,12 @@
 </main>
 <footer class="footer">
 	<div class="contacts">
-		<p class="contact__questions">Сотрудничество:</p>
-		<form class="my-email" action="mailto:evgenijantonyuk@gmail.com">
-			
-			<input name="subject" placeholder="Тема письма">
-			
-			<input name="body" placeholder="Содержание письма">
-			
-			<button>Отправить</button>
-		
-		</form>
+		<div class="contacts__email">
+			<p class="contact__questions">Сотрудничество:</p>
+			<form class="my-email">
+				<a class="my-email__address" href="mailto:evgenijantonyuk@gmail.com">e-mail: evgenijantonyuk@gmail.com</a>
+			</form>
+		</div>
 	</div>
 </footer>
 </body>

@@ -5,15 +5,15 @@
 	<meta charset="UTF-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Oxytropis</title>
+	<title>Oxytropis DC</title>
 	<link rel="stylesheet" href="./styles/normalize.css">
 	<link rel="stylesheet" href="./styles/style.css">
 	<link rel="stylesheet" href="./gallery-lib/gallery-ags.css">
-	<script src="./gallery-lib/gallery-ags.js"></script>
-	<script src="./main.js" defer></script>
+	<script defer src="./gallery-lib/gallery-ags.js"></script>
+	<script defer src="js/main.js"></script>
 </head>
-<body>
 
+<body>
 <header class="header">
 	<div class="logo__block">
 		<div class="asu-usbs">
@@ -22,11 +22,9 @@
 			<span class="logo__text">Алтайский<br> государственный<br> университет</span>
 		</div>
 		
-		
-		<form action="#">
-			<input class="inputText" type="text">
-			<input class="submitForm" type="submit" value="Поиск по сайту">
-		</form>
+<!--		<div class="form__control-grope">-->
+<!--			<input id="input" class="input-text" type="text" placeholder="Поиск по странице">-->
+<!--		</div>-->
 		
 		<div class="asu-usbs">
 			<span class="logo__text">Южно&ndash;Сибирский<br> ботанический<br> сад</span>
@@ -49,20 +47,20 @@
 		</li>
 	</ul>
 	
-	<div class="main__content">
+	<div class="main__content search">
 		<h1 class="title">Oxytropis DC Алтайской горной страны</h1>
 		<h2 class="subtitle">Алтайская горная страна</h2>
 		<img src="./images/ags-map/AGS_map_reg-1_2.jpg">
-		<p class="ags__text"><span class="ags__link"><a href="http://altaiflora.asu.ru/ru/%d0%bf%d1%80%d0%b8%d1%80%d0%be%d0%b4%d0%bd%d1%8b%d0%b5-%
-	d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d1%8f/" target="_blank">Алтайская горная страна</a></span> &ndash;
+		<p class="ags__text "><span class="ags__link"><a href="http://altaiflora.asu.ru/ru/%d0%bf%d1%80%d0%b8%d1%80%d0%be%d0%b4%d0%bd%d1%8b%d0%b5-%
+   d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d1%8f/" target="_blank" class="search">Алтайская горная страна</a></span> &ndash;
 			расположена на рубежах субконтинентов Северной и Центральной Азии между
 			44°30ґ и примерно 53&ndash;54° северной широты и 80°30` &ndash; 82° &ndash; 92°30` &ndash; 95° &ndash; 98°
 			восточной долготы. Это территория около 550 000 кв. км в пределах России, Казахстана, Китая и Монголии.
 		</p>
 		<section>
-			<h3 class="slideshow-title">Алтайская горная страна в фотографиях.</h3>
+			<h3 class="slideshow-title search">Алтайская горная страна в фотографиях.</h3>
 			
-			<div id="gallery" class="country-items">
+			<div id="gallery" cl searchass="country-items">
 				<div class="country-item">
 					<div class="slide slide-1"><img src="countryPhoto/Ukok_Plateau_2.jpg" alt=""></div>
 					<p class="slide__text slide__text_ukok">Плато Укок</p>
@@ -247,23 +245,19 @@
 			</p>
 		</div>
 	</div>
-	<button class="btnCoworker" id="coworker">Кнопка</button>
 </main>
 
 <footer class="footer">
 	<div class="contacts">
-		<p class="contact__questions">Сотрудничество:</p>
-		<form class="my-email" action="mailto:evgenijantonyuk@gmail.com">
-			
-			<input name="subject" placeholder="Тема письма">
-			
-			<input name="body" placeholder="Содержание письма">
-			
-			<button>Отправить</button>
-		
-		</form>
+		<div class="contacts__email">
+			<p class="contact__questions">Сотрудничество:</p>
+			<form class="my-email">
+				<a class="my-email__address" href="mailto:evgenijantonyuk@gmail.com">e-mail: evgenijantonyuk@gmail.com</a>
+			</form>
+		</div>
 	</div>
 </footer>
+
 
 </body>
 </html>

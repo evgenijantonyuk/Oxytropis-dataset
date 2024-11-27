@@ -22,7 +22,6 @@ img {
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: red;
 }
 
 
@@ -50,6 +49,7 @@ body {
 .header {
     width: 100%;
     background-color: cornflowerblue;
+
 }
 
 .logo__block {
@@ -77,8 +77,12 @@ body {
     align-items: center;;
 }
 
-.input__text {
+.input-text {
     margin: 0;
+    padding: 0 15px;
+    width: 270px;
+    height: 35px;
+    border-radius: 15px;
 }
 
 .items {
@@ -94,11 +98,14 @@ body {
     gap: 100px;
 }
 
+.navbar-shrink {
+    background-color: transparent;
+}
+
 .item:hover {
     color: red;
     transition: color 0.3s;
 }
-
 /*================== main ===================*/
 .main__content {
     width: 100%;
@@ -152,6 +159,8 @@ body {
 .footer {
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     width: 100%;
     min-height: 100px;
     background-color: darkgrey;
@@ -160,6 +169,29 @@ body {
 .contacts {
     display: flex;
     flex-direction: column;
+}
+
+.contacts__email {
+}
+
+.my-email__address {
+    border: 1px solid #835934;
+    opacity: 0.5;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.button {
+    display: inline-block;
+    user-select: none;
+    line-height: 1.5;
+    border: none;
+}
+
+.btn__email {
+    border-radius: 7px;
+    padding: 5px 10px;
 }
 
 .contact__questions {
@@ -172,5 +204,3 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
-.my-email__link {}

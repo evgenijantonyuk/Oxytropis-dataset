@@ -21,7 +21,6 @@ img {
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: red;
 }
 
 p {
@@ -64,7 +63,7 @@ p {
     display: flex;
     align-items: center;;
 }
-.inputText {
+.input-text {
     margin: 0;
     padding: 0 15px;
     width: 270px;
@@ -74,7 +73,6 @@ p {
 
 .items {
     width:  100%;
-    position: fixed;
     background-color: aquamarine;
     display: flex;
     justify-content: center;
@@ -86,12 +84,19 @@ p {
     gap: 100px;
 }
 
+.navbar-shrink {
+    background-color: transparent;
+}
 
 .item:hover {
     color: red;
     transition: color 0.3s;
 }
 
+/* ================= */
+.hide {
+    display: none;
+}
 /*================== main ===================*/
 .main__content {
     width: 100%;
@@ -319,12 +324,13 @@ mark {
 }
 
 /*================== note ===================================*/
-.s
 
-/*===========================footer=========================*/
+/*================ footer =============================*/
 .footer {
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     width: 100%;
     min-height: 100px;
     background-color: darkgrey;
@@ -335,15 +341,26 @@ mark {
     flex-direction: column;
 }
 
-.contact__questions {
-    margin: 0;
-    padding: 0;
+.contacts__email {
 }
 
-.my-email {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.my-email__address {
+    border: 1px solid #835934;
+    opacity: 0.5;
+    padding: 10px 15px;
+    border-radius: 7px;
+    display: inline-block;
 }
 
-.my-email__link {}
+.button {
+    display: inline-block;
+    user-select: none;
+    line-height: 1.5;
+    border: none;
+}
+
+.btn__email {
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+
