@@ -8,6 +8,7 @@
 	<title>Oxytropis</title>
 	<link href="list.css" rel="stylesheet">
 	<script defer src="js/main.js"></script>
+	<script defer src="./js/list.js"></script>
 </head>
 <body>
 <header class="header">
@@ -2375,7 +2376,7 @@
 				<p class="species__place">Описан с Алтая (Инская гора). Тип в Лондоне (ВМ).</p>
 				<p class="species__type"></p>
 				<p class="species__protolog">По протологу: «in apricis montanis ad fluvium Inae in montibus Tigerek sed
-					rarissima».</p
+					rarissima».</p>
 				
 				<p class="species__eco">В горных степях, на южных склонах.</p>
 				
@@ -3194,33 +3195,5 @@
 		</div>
 	</div>
 </footer>
-<script>
-	//     ======== Finding ============
-	document.querySelector('#input').oninput = function () {
-		let val = this.value.trim().toLowerCase()
-		let searchItems = document.querySelectorAll('.search')
-		if (val !== '') {
-			searchItems.forEach(function (elem) {
-				if (elem.innerText.search(val) === -1) {
-					elem.classList.add('hide')
-					elem.innerHTML = elem.innerText
-				} else {
-					elem.classList.remove('hide')
-					let str = elem.innerText
-					elem.innerHTML = insertMark(str, elem.innerText.search(val), val.length)
-				}
-			})
-		} else {
-			searchItems.forEach(function (elem) {
-				elem.classList.remove('hide')
-				elem.innerHTML = elem.innerText
-			})
-		}
-	}
-	
-	function insertMark(symbols, position, len) {
-		return symbols.slice(0, position) + '<mark>' + symbols.slice(position, position + len) + '</mark>' + symbols.slice(position + len)
-	}
-</script>
 </body>
 </html>

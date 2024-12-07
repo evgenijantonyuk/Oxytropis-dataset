@@ -97,7 +97,19 @@ body {
     list-style: none;
     gap: 100px;
 }
+/* =================== mobile =================== */
+.mobile-items {
+    display: none;
+    width:  100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
+.mobile-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+/* ============================================= */
 .navbar-shrink {
     background-color: transparent;
 }
