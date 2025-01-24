@@ -6,8 +6,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Oxytropis</title>
+	<link rel="stylesheet" href="./styles/css_reset.css">
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 	<link href="list.css" rel="stylesheet">
-	<script defer src="js/main.js"></script>
+	<script defer src="./js/main.js"></script>
 	<script defer src="./js/list.js"></script>
 </head>
 <body>
@@ -32,22 +37,43 @@
 </header>
 <!--=========================  main =====================-->
 <main class="container">
-	<ul class="items container">
-		<li>
-			<a href="./index.html" class="item">Главная</a>
+	<ul class="items">
+		<li class="item">
+			<a href="./index.html" class="item__link">Главная</a>
 		</li>
-		<li>
-			<a href="#l" class="item">Конспект видов</a>
+		<li class="item">
+			<a href="./list.html" class="item__link">Конспект видов</a>
 		</li>
-		<li>
-			<a href="./key.html" class="item">Ключ для определения видов</a>
+		<li class="item">
+			<a href="./key.html" class="item__link">Ключ для определения видов</a>
+		</li>
+		<li class="mobile-item">
+			<a href="./afterword.html" class="mobile-item__link">Послесловие</a>
 		</li>
 	</ul>
 	
+	<!--	mobile items -->
+	
+	<div class="mobile-container">
+		<ul class="mobile-items">
+			<li class="mobile-item">
+				<a href="./index.html" class="mobile-item__link">Главная</a>
+			</li>
+			<li class="mobile-item">
+				<a href="./list.html" class="mobile-item__link">Конспект видов</a>
+			</li>
+			<li class="mobile-item">
+				<a href="./key.html" class="mobile-item__link">Ключ для определения видов</a>
+			</li>
+			<li class="mobile-item">
+				<a href="./afterword.html" class="mobile-item__link">Послесловие</a>
+			</li>
+		</ul>
+	</div>
+	<!--	================     -->
 	<div class="main-content">
 		<section class="species__list">
-			<h2 class="species__title">Конспект видов рода&nbsp;<span class="species__genus">Oxytropis</span>&nbsp;DC.
-				Алтайской горной страны</h2>
+			<h2 class="species__title">Конспект видов рода&nbsp;Oxytropis&nbsp;DC.<br> Алтайской горной страны</h2>
 			<!--        =====================================               -->
 			<div class="genus">
 				<p class="genus-title">OXYTROPIS&nbsp;<span class="species__author">DC.</span></p>
@@ -1122,15 +1148,14 @@
 				<p class="specie__spread">Распр.: <span class="species__spread-local">КАД: КАД3 –  хр. Тарбагатай, КАД4, КАД6 – хр. Нарымский; А: А3 – Новое местонахождения для плато Укок: «Россия, Республика Алтай, Кош-Агачский р-н, плато Укок, истоки р. Аргамжи (западной), сев.-вост. макросклон вершины 3364.0, 49°12ʹ с. ш., 87° 44ʹ30ʺ в. д. Н = 2800–3000 м. АДШ № 3160. 26 VII 2000. Камелин Р. В., Шмаков А. И., Дорофеев В. И., Смирнов С. В., Чубаров И. Н., Антонюк Е. В., Косачев П. А., Уварова О. В., Костюков С. А., Дьяченко С. А.» (ALTB № 1100026363). (17. 10. 2019. Determ.: Antonyuk E. V.); «Россия, Республика Алтай, Кош-Агачский р-н, плато Укок, истоки р. Аргамжи (западной), сев.-вост. макросклон вершины 3115.0, 49°13ʹ30ʺ с. ш., 87°44ʹ в. д. Н = 2700–2900 м. АДШ № 3050. 26 VII 2000. Камелин Р. В., Шмаков А. И., Дорофеев В. И., Смирнов С. В., Чубаров И. Н., Антонюк Е. В., Косачев П. А., Уварова О. В., Костюков С. А., Дьяченко С. А.» (ALTB № 1100026683). (02.07. 2019. Determ.: Antonyuk E. V.). (Antonyuk, 2020), А4; ЗМ: ЗМ1 – Россия, Республика Алтай, Кош-Агачский р-н, хр. Чихачева, верховье р. Нарын-Гол выше оз. Киндиктыкуль, 49°49,5ʹ с. ш., 89°31ʹ в. д. Н = 2500–2700 м. АДШ № 1974. 17 VII 2000. Камелин Р. В., Шмаков А. И., Дорофеев В. И., Смирнов С. В., Чубаров И. Н., Антонюк Е. В., Косачев П. А., Уварова О. В., Костюков С. А., Дьяченко С. А.» (ALTB № 1100026333). (19 VII 2019. Determ.: Antonyuk E. V.). (Antonyuk, 2020)</span>
 				</p>
 				
-				<p class="specie__spread">Общ. распр.: <span class="species__spread-general"></span></p>
-				<p class="species__note">Ср Аз. (Дж. Алатау), Вост. Сиб. (Анг-Саян.).</p>
+				<p class="specie__spread">Общ. распр.: <span class="species__spread-general">Ср Аз. (Дж. Алатау), Вост. Сиб. (Анг-Саян.).</span></p>
+				<p class="species__note"></p>
 			</div>
 			<!--        ========== Вид ===============      -->
 			<div class="species__block search">
 				<span class="species__number">30.</span>
 				
-				<span class="species__name-lat"><a href="https://www.plantarium.ru/page/image/id/176135.html"
-				                                   target="_blank">О. longirostra</a></span>
+				<span class="species__name-lat"><a href="https://www.plantarium.ru/page/image/id/176135.html" target="_blank">О. longirostra</a></span>
 				
 				<span class="species__author">DC.</span>
 				
@@ -2699,7 +2724,7 @@
 			<div class="species__block search">
 				<span class="species__number">77.</span>
 				
-				<span class="species__name-lat"><a href="https://www.inaturalist.org/photos/231693506" target="_blank">O. viridinava</a></span>
+				<span class="species__name-lat"><a href="https://www.inaturalist.org/photos/231693506" target="_blank">O. viridiflava</a></span>
 				
 				<span class="species__author">Kom.</span>
 				
@@ -3186,13 +3211,6 @@
 <!--==================================================================================================-->
 <footer class="footer">
 	<div class="contacts">
-		<div class="contacts__email">
-			<p class="contact__questions">Сотрудничество:</p>
-			<form class="my-email">
-				<a class="my-email__address" href="mailto:evgenijantonyuk@gmail.com">e-mail:
-					evgenijantonyuk@gmail.com</a>
-			</form>
-		</div>
 	</div>
 </footer>
 </body>
