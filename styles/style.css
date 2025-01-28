@@ -23,6 +23,7 @@ body {
     margin: 0;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     background: #eefdec;
+    line-height: 1.5em;
 }
 
 
@@ -80,6 +81,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 14px;
+    line-height: 1.2rem;
 }
 
 .input-text {
@@ -98,7 +100,7 @@ body {
     align-items: center;
     height: 70px;
     margin: 0;
-    padding: 0;
+    padding: 0 25px;
     list-style: none;
     gap: 100px;
 }
@@ -116,20 +118,13 @@ body {
 .mobile-item:not(:last-child) {
     margin-bottom: 25px;
 }
-
-@media screen and (max-width: 720px) {
-    .mobile-items  {
-        display: block;
-    }
-    .items {
-        display: none;
-    }
-}
 /* ============================================= */
+.item {
+    transition: color 0.3s;
+}
 
 .item:hover {
-    color: red;
-    transition: color 0.3s;
+    color: #808080;
 }
 /*================== main ===================*/
 .main__content {
@@ -158,11 +153,22 @@ body {
     font-weight: 500;
     font-size: 20px;
 }
+
+.ags__title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
 .ags__text {
     margin: 0;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     text-indent: 30px;
     padding: 0 15px;
+}
+
+.ags__text:last-child {
+    margin-bottom: 25px;
 }
 
 .ags__link {
@@ -174,6 +180,7 @@ body {
     margin: 0;
     padding: 0 15px;
     text-indent: 30px;
+    /*line-height: 1.5;*/
 }
 
 .ags__regions {
@@ -196,6 +203,10 @@ body {
     text-align: center;
     font-weight: 500;
 }
+
+.country-items {
+
+}
 /*================ footer =============================*/
 .footer {
     display: flex;
@@ -209,19 +220,15 @@ body {
 
 /*=================* modal =====================*/
 .contacts {
-    padding: 25px;
+    /*padding: 25px;*/
     display: none;
     position: absolute;
-    top: 250vh;
-    left: 35%;
-    right: 50%;
-    width: 450px;
-    border: 3px solid darkgrey;
-    background-color: darkgrey;
-}
-
-.container.active {
-    background-color: #817979;
+    top: 230vh;
+    left: 15%;
+    /*right: 50%;*/
+    width: 70%;
+    /*border: 3px solid darkgrey;*/
+    /*background-color: darkgrey;*/
 }
 
 .active {
@@ -239,54 +246,63 @@ body {
     gap: 10px;
 }
 /*===============================================*/
-.my-email__address {
-    border: 1px solid #835934;
-    opacity: 0.5;
-    padding: 10px 15px;
-    border-radius: 7px;
-    display: inline-block;
-}
+/*.my-email__address {*/
+/*    border: 1px solid #835934;*/
+/*    opacity: 0.5;*/
+/*    padding: 10px 15px;*/
+/*    border-radius: 7px;*/
+/*    display: inline-block;*/
+/*}*/
 
-.button {
-    display: inline-block;
-    user-select: none;
-    line-height: 1.5;
-    border: none;
-}
+/*.button {*/
+/*    display: inline-block;*/
+/*    user-select: none;*/
+/*    line-height: 1.5;*/
+/*    border: none;*/
+/*}*/
 
-.btn__email {
-    border-radius: 7px;
-    padding: 5px 10px;
-}
+/*.btn__email {*/
+/*    border-radius: 7px;*/
+/*    padding: 5px 10px;*/
+/*}*/
 
-.contact__questions {
-    margin: 0;
-    padding: 0;
-}
+/*.contact__questions {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
 
-.contacts__form {
-    display: flex;
-}
+/*.contacts__form {*/
+/*    display: flex;*/
+/*}*/
 
-.input-text {
-    padding: 7px 15px;
-    background-color: #ccc;
-    border-radius: 10px;
-}
+/*.input-text {*/
+/*    padding: 7px 15px;*/
+/*    background-color: #ccc;*/
+/*    border-radius: 10px;*/
+/*}*/
 
-.buttons {
-    gap: 15px;
-}
+/*.buttons {*/
+/*    gap: 15px;*/
+/*}*/
 
-.form-button {
-    border: 1px solid #000;
-    background-color: #ccc;
-    border-radius: 10px;
-    padding: 5px 10px;
-}
+/*.form-button {*/
+/*    border: 1px solid #000;*/
+/*    background-color: #ccc;*/
+/*    border-radius: 10px;*/
+/*    padding: 5px 10px;*/
+/*}*/
 
-.input-text__textarea {
-    height: 100px;
+/*.input-text__textarea {*/
+/*    height: 100px;*/
+/*}*/
+
+@media screen and (max-width: 875px) {
+    .mobile-items  {
+        display: block;
+    }
+    .items {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
