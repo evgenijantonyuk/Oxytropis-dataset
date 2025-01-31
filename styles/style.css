@@ -128,11 +128,12 @@ body {
     margin-bottom: 25px;
 }
 .header__burger-btn {
+    background-color: #b8f8e3;
     position: relative;
     width: 40px;
     height: 40px;
     border: none;
-    /*z-index: 2;*/
+    z-index: 2;
 }
 
 .header__burger-btn span {
