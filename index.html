@@ -37,39 +37,49 @@
 
 <main>
 	<div class="container">
-		<ul class="items">
-			<li class="item">
-				<a href="#" class="item__link">Главная</a>
-			</li>
-			<li class="item">
-				<a href="./list.html" class="item__link">Конспект видов</a>
-			</li>
-			<li class="item">
-				<a href="./key.html" class="item__link">Ключ для определения видов</a>
-			</li>
-			<li class="item">
-				<a href="./afterword.html" class="item__link">Послесловие</a>
-			</li>
-		</ul>
+		<nav class="nav">
+			<ul class="items">
+				<li class="item">
+					<a href="#" class="item__link">Главная</a>
+				</li>
+				<li class="item">
+					<a href="./list.html" class="item__link">Конспект видов</a>
+				</li>
+				<li class="item">
+					<a href="./key.html" class="item__link">Ключ для определения видов</a>
+				</li>
+				<li class="item">
+					<a href="./afterword.html" class="item__link">Послесловие</a>
+				</li>
+			</ul>
+		</nav>
 	</div>
 	
 	<!--	mobile items -->
 	
 	<div class="mobile-container">
-		<ul class="mobile-items">
-			<li class="mobile-item">
-				<a href="#" class="mobile-item__link">Главная</a>
-			</li>
-			<li class="mobile-item">
-				<a href="./list.html" class="mobile-item__link">Конспект видов</a>
-			</li>
-			<li class="mobile-item">
-				<a href="./key.html" class="mobile-item__link">Ключ для определения видов</a>
-			</li>
-			<li class="mobile-item">
-				<a href="./afterword.html" class="mobile-item__link">Послесловие</a>
-			</li>
-		</ul>
+		<button class="nav header__burger-btn" id="burger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		
+		<nav class="nav-mobile">
+			<ul class="mobile-items">
+				<li class="mobile-item">
+					<a href="#" class="mobile-item__link">Главная</a>
+				</li>
+				<li class="mobile-item">
+					<a href="./list.html" class="mobile-item__link">Конспект видов</a>
+				</li>
+				<li class="mobile-item">
+					<a href="./key.html" class="mobile-item__link">Ключ для определения видов</a>
+				</li>
+				<li class="mobile-item">
+					<a href="./afterword.html" class="mobile-item__link">Послесловие</a>
+				</li>
+			</ul>
+		</nav>
 	</div>
 	<!--	================     -->
 	
@@ -78,17 +88,22 @@
 		<h2 class="subtitle">Алтайская горная страна</h2>
 		<img src="./images/ags-map/AGS_map_reg-1_2.jpg" alt="карта АГС">
 		<h3 class="ags__title">
-			<a href="http://altaiflora.asu.ru/ru/%d0%ba%d0%b0%d1%80%d1%82%d0%b0-%d0%b0%d0%b3%d1%81/" target="_blank">Схема ботанико&ndash;географического районирования Алтайской горной страны по Р.В. Камелину (2005), выполненная в WP Google Maps (Vaganov, Shmakov, Gudkova, 2019).
+			<a href="http://altaiflora.asu.ru/ru/%d0%ba%d0%b0%d1%80%d1%82%d0%b0-%d0%b0%d0%b3%d1%81/" target="_blank">Схема
+				ботанико&ndash;географического районирования Алтайской горной страны по Р.В. Камелину (2005),
+				выполненная в WP Google Maps (Vaganov, Shmakov, Gudkova, 2019).
 			</a>
 		</h3>
 		<p class="ags__text ">
 			<span class="ags__link">
-					<a href="http://altaiflora.asu.ru/ru/%d0%ba%d0%b0%d1%80%d1%82%d0%b0-%d0%b0%d0%b3%d1%81/" target="_blank">Алтайская горная страна</a>
-			</span> &ndash; расположена на рубежах субконтинентов Северной и Центральной Азии между 44&#176;30&#8242; и примерно
-			53&#8211;54&#176; северной широты и 80&#176;30&#8242;	&#8212; 82&#176; 	&#8211; 92&#176;30&#8242;	&#8212; 95&#176; 	&#8211; 98&#176; восточной долготы. Это территория около 550 000
+					<a href="http://altaiflora.asu.ru/ru/%d0%ba%d0%b0%d1%80%d1%82%d0%b0-%d0%b0%d0%b3%d1%81/"
+					   target="_blank">Алтайская горная страна</a>
+			</span> &ndash; расположена на рубежах субконтинентов Северной и Центральной Азии между 44&#176;30&#8242; и
+			примерно
+			53&#8211;54&#176; северной широты и 80&#176;30&#8242; &#8212; 82&#176; &#8211; 92&#176;30&#8242; &#8212; 95&#176;
+			&#8211; 98&#176; восточной долготы. Это территория около 550 000
 			кв. км в пределах России, Казахстана, Китая и Монголии.
 		</p>
-<!--			&#176; - градусы, &#8242; - минуты; &#8211; - короткое тире; 	&#8212; - длинное тире         -->
+		<!--			&#176; - градусы, &#8242; - минуты; &#8211; - короткое тире; 	&#8212; - длинное тире         -->
 		<p class="ags__text">Огромное, сложно устроенное горное поднятие Алтая и Алтаид (так называемых гор пограничной
 			Джунгарии), с одной стороны, является крайним юго-западным форпостом мощных горных систем юга Сибири и
 			Северной Монголии, но, с другой стороны, эта горная страна тесно связана как в Джунгарии, так и на
@@ -122,15 +137,24 @@
 			</div>
 			
 			<div class="map-descr">
-				<p class="ags__regions">Условные обозначения: А – Алтайская (районы: А1 – Северно-Алтайский, А2 –
+				<p class="ags__regions">
+					<b>Условные обозначения</b>: А – Алтайская (районы: А1 – Северно-Алтайский, А2 –
 					Северо-Восточно-Алтайский, А3 – Центрально-Алтайский, А4 – Чулышманский, А5 – Абакано-Джебашский, А6
 					– Хемчикский); КАД – Алтае-Джунгарская (районы: КАД1 – Северо-Западно-Алтайский, КАД2 – Калбинский,
 					КАД3 – Тарбагатайский, КАД4 – Саурский, КАД5 – Зайсанский, КАД6 – Бухтарминский, КАД7 –
 					Маркаколь-Канасский, КАД8 – Черно-Иртышский, КАД9 – Алтае-Джунгарский); ЗМ, ЮМ –
 					Тувинско-Монгольская (районы: ЗМ1 – Чуе-Кобдосский, ЗМ2 – Цаган-Гольский, ЗМ3 –
-					Кобдосско-Тонхильский, ЮМ – Южно-Монгольский).</p>
+					Кобдосско-Тонхильский, ЮМ – Южно-Монгольский).
+				</p>
 				
-				<p class="ags__text"><span class="ags__link"><a href="http://altaiflora.asu.ru/ru/%d0%ba%d0%b0%d1%80%d1%82%d0%b0-%d0%b0%d0%b3%d1%81/" target="_blank">Алтайская горная страна </a></span>&ndash; самое высокое поднятие среди горных стран Северной Азии. Высшие точки его &ndash; двуглавая Белуха (4506 и 4400м) в Катунском хребте и горный узел Таван&ndash;Богдо&ndash;Ула (пять священных гор с 3 крупнейшими вершинами в 4374, 4360 и 3981 м). Еще в 6 хребтах и горных массивах Алтая вершины превышают 4000 м (Мунх&ndash;Хайрхан, Цаст&ndash;Ула, Северо&ndash;Чуйские Альпы, Хархира, Сутай&ndash;Ула, Тургэн&ndash;Ула), а в еще 10 хребтах и горных массивах Алтая и Саура &ndash; вершины выше 3700-3900 м.</p>
+				<p class="ags__text"><span class="ags__link"><a
+						href="http://altaiflora.asu.ru/ru/%d0%ba%d0%b0%d1%80%d1%82%d0%b0-%d0%b0%d0%b3%d1%81/"
+						target="_blank">Алтайская горная страна </a></span>&ndash; самое высокое поднятие среди горных
+					стран Северной Азии. Высшие точки его &ndash; двуглавая Белуха (4506 и 4400м) в Катунском хребте и
+					горный узел Таван&ndash;Богдо&ndash;Ула (пять священных гор с 3 крупнейшими вершинами в 4374, 4360 и
+					3981 м). Еще в 6 хребтах и горных массивах Алтая вершины превышают 4000 м (Мунх&ndash;Хайрхан, Цаст&ndash;Ула,
+					Северо&ndash;Чуйские Альпы, Хархира, Сутай&ndash;Ула, Тургэн&ndash;Ула), а в еще 10 хребтах и горных
+					массивах Алтая и Саура &ndash; вершины выше 3700-3900 м.</p>
 				<p class="ags__text">Замечательными особенностями Алтайской горной страны являются ступенчатое сложение
 					всего поднятия с тремя основными уровнями выравнивания, наличие в центральном куполовидном поднятии
 					обширного высокогорного плато на высотах 2200&ndash;2400 и двухступенчатой системы плоских межгорных
@@ -232,25 +256,6 @@
 					</form>
 				</div>
 			</div>
-			<!--			-->
-			<!--			<form class="contacts__form">-->
-			<!--				<label>-->
-			<!--					<textarea class="input-text input-text__textarea" name="text" placeholder="Сообщение"></textarea>-->
-			<!--				</label>-->
-			<!--				-->
-			<!--				<label>-->
-			<!--					<input class="input-text" name="email" type="email" placeholder="Ваша почта">-->
-			<!--				</label>-->
-			<!--				-->
-			<!--				<label>-->
-			<!--					<input class="input-text" name="tel" type="tel" placeholder="Ваш телефон">-->
-			<!--				</label>-->
-			<!--				-->
-			<!--				<div class="buttons">-->
-			<!--					<input class="form-button" type="reset">-->
-			<!--					<input class="form-button" type="submit">-->
-			<!--				</div>-->
-			<!--			</form>-->
 		</div>
 	</div>
 </main>

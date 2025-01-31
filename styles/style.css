@@ -104,19 +104,82 @@ body {
     list-style: none;
     gap: 100px;
 }
+
 /* =================== mobile =================== */
-.mobile-items {
+.mobile-container {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-mobile {
     display: none;
+}
+
+.mobile-items {
     width:  100%;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
-    background: aquamarine;
 }
 
 .mobile-item:not(:last-child) {
     margin-bottom: 25px;
+}
+.header__burger-btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    z-index: 2;
+}
+
+.header__burger-btn span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    transition: transform .3s;
+
+}
+
+.header__burger-btn span:nth-of-type(2) {
+    top: calc(50% - 10px);
+}
+
+.header__burger-btn span:nth-of-type(3) {
+    top: calc(50% + 10px);
+}
+
+.header__burger-btn li {
+    list-style-type: none;
+}
+
+.header__burger-btn.active span:first-of-type {
+    transform: translateX(-500%);
+}
+
+.header__burger-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.header__burger-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.header__burger-btn {
+    display: none;
+    padding: 25px;
+}
+
+.nav-list__item-mobile:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.active {
+    display: flex;
 }
 /* ============================================= */
 .item {
@@ -140,15 +203,15 @@ body {
 }
 
 .title {
-    margin: 0 auto;
+    text-align: center;
     margin-bottom: 15px;
     padding-top: 15px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
 }
 
 .subtitle {
-    margin: 0 auto;
+    text-align: center;
     margin-bottom: 15px;
     font-weight: 500;
     font-size: 20px;
@@ -158,6 +221,11 @@ body {
     text-align: center;
     margin-bottom: 15px;
     font-weight: 500;
+    transition: color 0.3s;
+}
+
+.ags__title:hover {
+    color: #808080;
 }
 
 .ags__text {
@@ -165,6 +233,10 @@ body {
     margin-bottom: 5px;
     text-indent: 30px;
     padding: 0 15px;
+}
+
+.ags__regions {
+    margin-bottom: 5px;
 }
 
 .ags__text:last-child {
@@ -181,10 +253,6 @@ body {
     padding: 0 15px;
     text-indent: 30px;
     /*line-height: 1.5;*/
-}
-
-.ags__regions {
-    margin: 0;
 }
 
 .ags__link:hover {
@@ -204,9 +272,6 @@ body {
     font-weight: 500;
 }
 
-.country-items {
-
-}
 /*================ footer =============================*/
 .footer {
     display: flex;
@@ -223,85 +288,20 @@ body {
     /*padding: 25px;*/
     display: none;
     position: absolute;
-    top: 230vh;
+    top: 270vh;
     left: 15%;
     /*right: 50%;*/
     width: 70%;
     /*border: 3px solid darkgrey;*/
     /*background-color: darkgrey;*/
 }
-
-.active {
-    display: block;
-}
-
-.buttons {
-    display: flex;
-}
-
-.contacts__form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
 /*===============================================*/
-/*.my-email__address {*/
-/*    border: 1px solid #835934;*/
-/*    opacity: 0.5;*/
-/*    padding: 10px 15px;*/
-/*    border-radius: 7px;*/
-/*    display: inline-block;*/
-/*}*/
-
-/*.button {*/
-/*    display: inline-block;*/
-/*    user-select: none;*/
-/*    line-height: 1.5;*/
-/*    border: none;*/
-/*}*/
-
-/*.btn__email {*/
-/*    border-radius: 7px;*/
-/*    padding: 5px 10px;*/
-/*}*/
-
-/*.contact__questions {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-
-/*.contacts__form {*/
-/*    display: flex;*/
-/*}*/
-
-/*.input-text {*/
-/*    padding: 7px 15px;*/
-/*    background-color: #ccc;*/
-/*    border-radius: 10px;*/
-/*}*/
-
-/*.buttons {*/
-/*    gap: 15px;*/
-/*}*/
-
-/*.form-button {*/
-/*    border: 1px solid #000;*/
-/*    background-color: #ccc;*/
-/*    border-radius: 10px;*/
-/*    padding: 5px 10px;*/
-/*}*/
-
-/*.input-text__textarea {*/
-/*    height: 100px;*/
-/*}*/
-
 @media screen and (max-width: 875px) {
-    .mobile-items  {
-        display: block;
-    }
     .items {
         display: none;
+    }
+    .header__burger-btn {
+        display: block;
     }
 }
 

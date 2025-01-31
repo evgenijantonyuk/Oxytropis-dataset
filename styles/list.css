@@ -10,11 +10,25 @@
 .species__title {
     margin: 0;
     text-align: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .species__list {
     padding: 0 15px;
 }
+
+.genus-title {
+    font-weight: 500;
+}
+
+.genus__type_oxytropis {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
 /*============= genus ==================*/
 .genus {
     margin: 0;
@@ -40,6 +54,7 @@
 
 .genus__description {
     margin: 0;
+    margin-bottom: 10px;
     text-indent: 30px;
 }
 /*============================*/
