@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', function(){
     
     const buttonShow = document.querySelector('.contacts-button')
     const contacts = document.querySelector('.contacts')
-    const container = document.querySelector('.container')
+    const content = document.querySelector('.content')
     
     buttonShow.addEventListener('click', function(){
-        contacts.classList.toggle('active')
-        container.classList.toggle('active')
+        contacts.classList.toggle('isVisible')
+        content.classList.toggle('isVisible')
     })
 })
 

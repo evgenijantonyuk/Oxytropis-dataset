@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
         return symbols.slice(0, position) + '<mark>' + symbols.slice(position, position + len) + '</mark>' + symbols.slice(position + len)
     }
 })
-//     ===================================== hamburger-menu ================================
-const openMenuBtn = document.querySelector('#burger')
+//  ======================= burger menu ===============
+const openMenuBtn = document.querySelector('.header__burger-btn')
 const mobileMenu = document.querySelector('.nav-mobile')
 const closeMenu = document.querySelector('.header__burger-btn')
 
@@ -36,3 +36,4 @@ openMenuBtn.addEventListener('click', function () {
     mobileMenu.classList.toggle('active')
     closeMenu.classList.toggle('active')
 })
+

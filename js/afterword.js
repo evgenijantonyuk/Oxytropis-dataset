@@ -1,4 +1,4 @@
-//     ===================================== hamburger-menu ================================ //
+
 const openMenuBtn = document.querySelector('#burger')
 const mobileMenu = document.querySelector('.nav-mobile')
 const closeMenu = document.querySelector('.header__burger-btn')

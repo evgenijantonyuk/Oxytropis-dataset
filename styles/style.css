@@ -285,6 +285,9 @@ body {
 }
 
 /*=================* modal =====================*/
+.isVisible {
+    display: block;
+}
 .contacts {
     /*padding: 25px;*/
     display: none;

@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15bd600b-6f7a-4473-8ce1-68b52c87b88b" name="Changes" comment="добавлена форма">
+    <list default="true" id="15bd600b-6f7a-4473-8ce1-68b52c87b88b" name="Changes" comment="add burger all pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/afterword.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterword.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/afterword.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/afterword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/key.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/key.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/key.html" beforeDir="false" afterPath="$PROJECT_DIR$/key.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/send_mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/send_mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +144,7 @@
       <workItem from="1736622423237" duration="1063000" />
       <workItem from="1736755521515" duration="628000" />
       <workItem from="1737016998792" duration="495000" />
-      <workItem from="1737020541174" duration="97443000" />
+      <workItem from="1737020541174" duration="104667000" />
     </task>
     <task id="LOCAL-00001" summary="new commite">
       <created>1705519964233</created>
@@ -175,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738082064433</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add burger 1page">
+      <option name="closed" value="true" />
+      <created>1738302982180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738302982180</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add burger all pages">
+      <option name="closed" value="true" />
+      <created>1738310574140</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738310574140</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +214,8 @@
     <MESSAGE value="new commite" />
     <MESSAGE value="add list and key" />
     <MESSAGE value="добавлена форма" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлена форма" />
+    <MESSAGE value="add burger 1page" />
+    <MESSAGE value="add burger all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add burger all pages" />
   </component>
 </project>
