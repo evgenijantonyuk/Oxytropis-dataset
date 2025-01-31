@@ -128,7 +128,7 @@ body {
     margin-bottom: 25px;
 }
 .header__burger-btn {
-    background-color: #b8f8e3;
+    color: #b8f8e3;
     position: relative;
     width: 40px;
     height: 40px;
@@ -142,7 +142,6 @@ body {
     height: 3px;
     background-color: #000;
     transition: transform .3s;
-
 }
 
 .header__burger-btn span:nth-of-type(2) {
@@ -173,7 +172,6 @@ body {
 
 .header__burger-btn {
     display: none;
-    /*padding: 25px;*/
 }
 
 .nav-list__item-mobile:not(:last-child) {
