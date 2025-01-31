@@ -132,7 +132,7 @@ body {
     width: 40px;
     height: 40px;
     border: none;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 .header__burger-btn span {
@@ -172,7 +172,7 @@ body {
 
 .header__burger-btn {
     display: none;
-    padding: 25px;
+    /*padding: 25px;*/
 }
 
 .nav-list__item-mobile:not(:last-child) {
