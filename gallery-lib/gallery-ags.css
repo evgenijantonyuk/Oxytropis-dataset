@@ -1,16 +1,16 @@
 .slide {
     /*height: 50rem;*/
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .gallery {
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     position: relative;
     overflow: hidden;
     user-select: none;
-    -webkit-user-select: none;;
     padding: 0 3rem;
 }
 
@@ -29,6 +29,7 @@
     transform: translateZ(0);
     overflow: hidden;
 }
+
 /* Навигация */
 .gallery-dots {
     display: flex;
@@ -53,11 +54,11 @@
     background: #888;
 }
 
-/*.gallery-nav {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    padding: 1rem 0 0;*/
-/*}*/
+.gallery-nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 0;
+}
 
 .gallery-nav button {
     margin: 0.5rem;
@@ -70,36 +71,6 @@
     display: flex;
     justify-content: center;
 }
-
-/*.slide-1 {*/
-/*    background-size: cover;*/
-/*    background-image: url("../countryPhoto/Ukok_Plateau_2.jpg");*/
-/*    background-repeat: no-repeat;*/
-/*}*/
-.slide__text_ukok {
-    color: #817979;
-}
-
-/*.slide-2 {*/
-/*    background-size: cover;*/
-/*    background-image: url("../countryPhoto/167023.jpg");*/
-/*    background-repeat: no-repeat;*/
-/*}*/
-.slide__text_mars {
-    color: #0f0fe4;
-}
-
-/*.slide-3 {*/
-/*     background-size: cover;*/
-/*     background-image: url("../countryPhoto/P1134972.jpg");*/
-/*     background-repeat: no-repeat;*/
-/* }*/
-
-/*.slide-4 {*/
-/*       background-size: cover;*/
-/*       background-image: url("../countryPhoto/Zolotye-gory-Altaya.jpg");*/
-/*       background-repeat: no-repeat;*/
-/*  }*/
 
 .gallery-nav-left,
 .gallery-nav-right {
