@@ -231,17 +231,12 @@ body {
 
 .ags__text {
     margin: 0;
-    margin-bottom: 5px;
     text-indent: 30px;
-    padding: 0 15px;
+    padding: 0 5px 15px 5px;
 }
 
 .ags__regions {
     margin-bottom: 5px;
-}
-
-.ags__text:last-child {
-    margin-bottom: 25px;
 }
 
 .ags__link {
@@ -285,9 +280,6 @@ body {
 }
 
 /*=================* modal =====================*/
-.isVisible {
-    display: block;
-}
 .contacts {
     /*padding: 25px;*/
     display: none;
@@ -298,6 +290,17 @@ body {
     width: 70%;
     /*border: 3px solid darkgrey;*/
     /*background-color: darkgrey;*/
+}
+
+.isVisible {
+    display: block;
+}
+
+.contacts-button {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    background: #c4b4f1;
+    border-radius: 7px;
 }
 /*===============================================*/
 @media screen and (max-width: 875px) {

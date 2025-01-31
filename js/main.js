@@ -3,7 +3,17 @@ document.addEventListener('DOMContentLoaded', function(){
     new Gallery(document.getElementById('gallery'), {
         margin: 15
     })
+    //     ====================================== modal ===================================
     
+    const buttonShow = document.querySelector('.contacts-button')
+    const contacts = document.querySelector('.contacts')
+    
+    buttonShow.addEventListener('click', function(){
+        console.log('click')
+        contacts.classList.toggle('isVisible')
+    })
+})
+
 //     ===================================== hamburger-menu ================================
     const openMenuBtn = document.querySelector('#burger')
     const mobileMenu = document.querySelector('.nav-mobile')
@@ -14,19 +24,7 @@ document.addEventListener('DOMContentLoaded', function(){
         mobileMenu.classList.toggle('active')
         closeMenu.classList.toggle('active')
     })
-//     ====================================== modal ===================================
     
-    const buttonShow = document.querySelector('.contacts-button')
-    const contacts = document.querySelector('.contacts')
-    const content = document.querySelector('.content')
-    
-    buttonShow.addEventListener('click', function(){
-        contacts.classList.toggle('isVisible')
-        content.classList.toggle('isVisible')
-    })
-})
-
-
 // ======================================== form ======================================
 const form = document.forms["form"];
 const formArr = Array.from(form);
