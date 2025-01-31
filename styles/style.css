@@ -107,6 +107,7 @@ body {
 
 /* =================== mobile =================== */
 .mobile-container {
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: #b8f8e3;
