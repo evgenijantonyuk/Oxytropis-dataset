@@ -4,51 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15bd600b-6f7a-4473-8ce1-68b52c87b88b" name="Changes" comment="photo exchange">
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Belij-Bom-Chuja-value.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Charysh-district_near-Sentelek-village.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Chuja-value_Severo-chujskiy_range.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Czike-taman-pass.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Czuiskaja_step_Ортолык.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Hovd_Aymak_Mongolian_Altai_40-km-Manhan.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Hovd_aymak_Bulgan.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Mongolian_Altai_Bulgan3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Near_Aja.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Razrabotnaj-mount_Tigerekskij-range.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Sailugem-Kokoria.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/near-Ak-tash-mine.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Близ Теплого озера_Покровка.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Долина Катуни близ Яломана 20.37.16.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Катунь близ Ороктойского моста.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Курайский хребет.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Курайский хребет2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Курайский хребет3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Курайский хребет4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Монголия, граница с Китаем, Джунгарская Гоби.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Северо_Чуйский_близ Курая_6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Софийский ледник3_10.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Софийский ледник_8.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Тигирек_11.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Тигирекский_1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Тигирекский_хребет_13.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Чулышман близ перевала Катуерык_3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/Южной_Чуйский хребет_19.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/близ Теплого озера_Покровка2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/гора Сердцева близ пос. Тигирек.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/дорога на Тигирек 20.37.16.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/майская_экспедиция2 006.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/перед Сентелеком.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/перед Сентелеком_18.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countryPhoto/слияние Чуя_Катунь_7.webp" afterDir="false" />
+    <list default="true" id="15bd600b-6f7a-4473-8ce1-68b52c87b88b" name="Changes" comment="burger and modal ok">
+      <change afterPath="$PROJECT_DIR$/PHPMailer/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-as.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-bn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ku.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-mn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-si.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/src/DSNConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/src/OAuthTokenProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countryPhoto/Darkside.itermcolors" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/countryPhoto/P1134972.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/countryPhoto/Ukok_Plateau_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/countryPhoto/Zolotye-gory-Altaya.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery-lib/gallery-ags.css" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-lib/gallery-ags.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key.html" beforeDir="false" afterPath="$PROJECT_DIR$/key.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/SECURITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/SECURITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/get_oauth_token.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/get_oauth_token.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-da.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-el.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-es.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-fi.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-fr.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-hi.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-hi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ja.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-nb.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-pl.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ru.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-zh_cn.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/src/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/src/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/src/OAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/src/OAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/src/PHPMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/src/PHPMailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/src/POP3.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/src/POP3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/src/SMTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPMailer/src/SMTP.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +167,7 @@
       <workItem from="1736622423237" duration="1063000" />
       <workItem from="1736755521515" duration="628000" />
       <workItem from="1737016998792" duration="495000" />
-      <workItem from="1737020541174" duration="116315000" />
+      <workItem from="1737020541174" duration="122800000" />
     </task>
     <task id="LOCAL-00001" summary="new commite">
       <created>1705519964233</created>
@@ -282,7 +271,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738327144552</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add photo">
+      <option name="closed" value="true" />
+      <created>1738344154714</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738344154714</updated>
+    </task>
+    <task id="LOCAL-00015" summary="burger and modal ok">
+      <option name="closed" value="true" />
+      <created>1738354356533</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738354356533</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +314,8 @@
     <MESSAGE value="some errors" />
     <MESSAGE value="css errors" />
     <MESSAGE value="photo exchange" />
-    <option name="LAST_COMMIT_MESSAGE" value="photo exchange" />
+    <MESSAGE value="add photo" />
+    <MESSAGE value="burger and modal ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="burger and modal ok" />
   </component>
 </project>
