@@ -17,6 +17,9 @@
     $message = $_POST["message"];
 	$email_template = "template_mail.html";
 
+	$body = $name . ' ' . $email . ' ' . $phone . ' ' $message;
+	$theme = "[Заявка с формы]"
+
     $body = file_get_contents($email_template);
 	$body = str_replace('%name%', $name, $body);
 	$body = str_replace('%email%', $email, $body);
@@ -25,14 +28,19 @@
 
     $mail->addAddress("evgenijantonyuk@gmail.com");   // Здесь введите Email, куда отправлять
 	$mail->setFrom($email);
-    $mail->Subject = "[Заявка с формы]";
-    $mail->MsgHTML($body);
 
-    if (!$mail->send()) {
-        $message = "Ошибка отправки";
-    } else {
-        $message = "Данные отправлены!";
-    }
+	$mail -> Subject = $theme;
+	$mail -> Body = $body;
+
+	$mail -> send()
+//     $mail->Subject = "[Заявка с формы]";
+//     $mail->MsgHTML($body);
+
+//     if (!$mail->send()) {
+//         $message = "Ошибка отправки";
+//     } else {
+//         $message = "Данные отправлены!";
+//     }
 
 	$response = ["message" => $message];
 
