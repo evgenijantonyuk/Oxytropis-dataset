@@ -1,41 +1,38 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function(){
     // ======== Gallery ========
     new Gallery(document.getElementById('gallery'), {
         margin: 15
     })
-    //     ====================================== modal ===================================
-    
-    const buttonShow = document.querySelector('.contacts-button')
-    const contacts = document.querySelector('.contacts')
-    const closeBtn = document.querySelector('.close-btn')
-    
-    buttonShow.addEventListener('click', function () {
-        console.log('click')
-        contacts.classList.add('isVisible')
-    })
-    
-    closeBtn.addEventListener('click', function () {
-        console.log('Закрыть')
-        contacts.classList.remove('isVisible')
-    })
-})
-
 //     ===================================== hamburger-menu ================================
     const openMenuBtn = document.querySelector('#burger')
     const mobileMenu = document.querySelector('.nav-mobile')
+    const closeMenu = document.querySelector('.header__burger-btn')
     
     openMenuBtn.addEventListener('click', function () {
         console.log('click')
         mobileMenu.classList.toggle('active')
         closeMenu.classList.toggle('active')
     })
+    //     ====================================== modal ===================================
     
+    const buttonShow = document.querySelector('.contacts-button')
+    const contacts = document.querySelector('.contacts')
+    const formCloseBtn = document.querySelector('.form__close-btn')
+    
+    buttonShow.addEventListener('click', function(){
+        console.log('click')
+        contacts.classList.add('isVisible')
+    })
+    
+    formCloseBtn.addEventListener('click', function(){
+        contacts.classList.remove('isVisible')
+    })
+
 // ======================================== form ======================================
 const form = document.forms["form"];
 const formArr = Array.from(form);
 const validFormArr = [];
 const button = form.elements["button"];
-const closeBtn = document.querySelector('.close-btn');
 
 formArr.forEach((el) => {
     if (el.hasAttribute("data-reg")) {
@@ -112,6 +109,8 @@ function formReset() {
         el.style.border = "none";
     });
 }
+})
+
 // ================================================================================================
 
 

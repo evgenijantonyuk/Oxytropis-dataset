@@ -4,9 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15bd600b-6f7a-4473-8ce1-68b52c87b88b" name="Changes" comment="form btn">
+    <list default="true" id="15bd600b-6f7a-4473-8ce1-68b52c87b88b" name="Changes" comment="form btn css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterword.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/167023.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/167023.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Belij-Bom-Chuja-value.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Belij-Bom-Chuja-value.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Charysh-district_near-Sentelek-village.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Charysh-district_near-Sentelek-village.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Chuja-value_Severo-chujskiy_range.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Chuja-value_Severo-chujskiy_range.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Czike-taman-pass.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Czike-taman-pass.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Czuiskaja_step_Ортолык.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Czuiskaja_step_Ортолык.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Hovd_Aymak_Mongolian_Altai_40-km-Manhan.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Hovd_Aymak_Mongolian_Altai_40-km-Manhan.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Hovd_aymak_Bulgan.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Hovd_aymak_Bulgan.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Mongolian_Altai_Bulgan3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Mongolian_Altai_Bulgan3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Near_Aja.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Near_Aja.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Razrabotnaj-mount_Tigerekskij-range.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Razrabotnaj-mount_Tigerekskij-range.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Sailugem-Kokoria.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Sailugem-Kokoria.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/near-Ak-tash-mine.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/near-Ak-tash-mine.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Близ Теплого озера_Покровка.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Близ Теплого озера_Покровка.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Долина Катуни близ Яломана 20.37.16.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Долина Катуни близ Яломана 20.37.16.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Катунь близ Ороктойского моста.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Катунь близ Ороктойского моста.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Курайский хребет.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Курайский хребет.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Курайский хребет2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Курайский хребет2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Курайский хребет3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Курайский хребет3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Курайский хребет4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Курайский хребет4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Монголия, граница с Китаем, Джунгарская Гоби.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Монголия, граница с Китаем, Джунгарская Гоби.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Северо_Чуйский_близ Курая_6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Северо_Чуйский_близ Курая_6.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Софийский ледник3_10.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Софийский ледник3_10.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Софийский ледник_8.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Софийский ледник_8.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Тигирек_11.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Тигирек_11.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Тигирекский_1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Тигирекский_1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Тигирекский_хребет_13.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Тигирекский_хребет_13.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Чулышман близ перевала Катуерык_3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Чулышман близ перевала Катуерык_3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/Южной_Чуйский хребет_19.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/Южной_Чуйский хребет_19.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/близ Теплого озера_Покровка2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/близ Теплого озера_Покровка2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/гора Сердцева близ пос. Тигирек.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/гора Сердцева близ пос. Тигирек.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/дорога на Тигирек 20.37.16.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/дорога на Тигирек 20.37.16.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/майская_экспедиция2 006.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/майская_экспедиция2 006.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/перед Сентелеком.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/перед Сентелеком.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/перед Сентелеком_18.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/перед Сентелеком_18.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countryPhoto/слияние Чуя_Катунь_7.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/countryPhoto/слияние Чуя_Катунь_7.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O. frigida/O.frigida.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O. frigida/O.frigida.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O. longibracteata/O.longibracteata .png" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O. longibracteata/O.longibracteata .png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O. melaleuca/O.melaleuca копия.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O. melaleuca/O.melaleuca копия.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O. nivea/O.nivea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O. nivea/O.nivea.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O. suprajenissejensis/O.suprajenissejensis.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O. suprajenissejensis/O.suprajenissejensis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O.cana/O.cana.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O.cana/O.cana.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O.chionophylla/O. chionophylla.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O.chionophylla/O. chionophylla.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O.chionophylla/O.chionophylla.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O.chionophylla/O.chionophylla.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O.kaspensis/O.kaspensis.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O.kaspensis/O.kaspensis.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O.krylovii/O.krylovii.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O.krylovii/O.krylovii.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herbSpecies/O.ladyginii/O.ladyginii.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/herbSpecies/O.ladyginii/O.ladyginii.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/afterword.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/afterword.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +118,11 @@
       <recent name="$PROJECT_DIR$/herbSpecies/O.. longibracteata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/gallery-lib" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/herbSpecies/O.. longibracteata" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -136,7 +189,7 @@
       <workItem from="1736622423237" duration="1063000" />
       <workItem from="1736755521515" duration="628000" />
       <workItem from="1737016998792" duration="495000" />
-      <workItem from="1737020541174" duration="150527000" />
+      <workItem from="1737020541174" duration="159762000" />
     </task>
     <task id="LOCAL-00001" summary="new commite">
       <created>1705519964233</created>
@@ -288,7 +341,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738591777294</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="form btn css">
+      <option name="closed" value="true" />
+      <created>1738592265807</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1738592265807</updated>
+    </task>
+    <task id="LOCAL-00021" summary="form btn css">
+      <option name="closed" value="true" />
+      <created>1738592829522</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1738592829522</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +388,7 @@
     <MESSAGE value="burger and modal ok" />
     <MESSAGE value="add PHP mailer" />
     <MESSAGE value="form btn" />
-    <option name="LAST_COMMIT_MESSAGE" value="form btn" />
+    <MESSAGE value="form btn css" />
+    <option name="LAST_COMMIT_MESSAGE" value="form btn css" />
   </component>
 </project>

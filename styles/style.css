@@ -129,7 +129,6 @@ body {
     margin-bottom: 25px;
 }
 .header__burger-btn {
-    /*color: #b8f8e3;*/
     position: relative;
     width: 40px;
     height: 40px;
@@ -231,6 +230,7 @@ body {
 
 .ags__text {
     margin: 0;
+    margin-bottom: 5px;
     text-indent: 30px;
     padding: 0 5px 15px 5px;
 }
@@ -280,27 +280,11 @@ body {
 }
 
 /*=================* modal =====================*/
-.contacts {
-    /*padding: 25px;*/
-    display: none;
-    position: absolute;
-    top: 270vh;
-    left: 15%;
-    /*right: 50%;*/
-    width: 70%;
-    /*border: 3px solid darkgrey;*/
-    /*background-color: darkgrey;*/
-}
-
-.isVisible {
-    display: block;
-}
-
 .contacts-button {
     border: 1px solid #ccc;
     padding: 10px 20px;
-    background: #c4b4f1;
-    border-radius: 7px;
+    background: #b099f3;
+    border-radius: 15px;
 }
 /*===============================================*/
 @media screen and (max-width: 875px) {
