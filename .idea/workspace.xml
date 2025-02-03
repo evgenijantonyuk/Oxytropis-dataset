@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15bd600b-6f7a-4473-8ce1-68b52c87b88b" name="Changes" comment="add PHP mailer">
-      <change beforePath="$PROJECT_DIR$/send_mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/send_mail.php" afterDir="false" />
+    <list default="true" id="15bd600b-6f7a-4473-8ce1-68b52c87b88b" name="Changes" comment="form btn">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/form.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +136,7 @@
       <workItem from="1736622423237" duration="1063000" />
       <workItem from="1736755521515" duration="628000" />
       <workItem from="1737016998792" duration="495000" />
-      <workItem from="1737020541174" duration="123908000" />
+      <workItem from="1737020541174" duration="150527000" />
     </task>
     <task id="LOCAL-00001" summary="new commite">
       <created>1705519964233</created>
@@ -263,7 +264,31 @@
       <option name="project" value="LOCAL" />
       <updated>1738391786534</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add PHP mailer">
+      <option name="closed" value="true" />
+      <created>1738392897795</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738392897795</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add PHP mailer">
+      <option name="closed" value="true" />
+      <created>1738393153330</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738393153330</updated>
+    </task>
+    <task id="LOCAL-00019" summary="form btn">
+      <option name="closed" value="true" />
+      <created>1738591777294</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738591777294</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +318,7 @@
     <MESSAGE value="add photo" />
     <MESSAGE value="burger and modal ok" />
     <MESSAGE value="add PHP mailer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add PHP mailer" />
+    <MESSAGE value="form btn" />
+    <option name="LAST_COMMIT_MESSAGE" value="form btn" />
   </component>
 </project>

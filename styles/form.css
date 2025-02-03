@@ -122,6 +122,7 @@
 .close-btn {
     position: absolute;
     top: 25px;
+    background-color: transparent;
 }
 
 @media (max-width: 800px) {
