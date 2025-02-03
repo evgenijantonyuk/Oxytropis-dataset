@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function() {
     // ======== Gallery ========
     new Gallery(document.getElementById('gallery'), {
         margin: 15
@@ -7,17 +7,22 @@ document.addEventListener('DOMContentLoaded', function(){
     
     const buttonShow = document.querySelector('.contacts-button')
     const contacts = document.querySelector('.contacts')
+    const closeBtn = document.querySelector('.close-btn')
     
-    buttonShow.addEventListener('click', function(){
+    buttonShow.addEventListener('click', function () {
         console.log('click')
-        contacts.classList.toggle('isVisible')
+        contacts.classList.add('isVisible')
+    })
+    
+    closeBtn.addEventListener('click', function () {
+        console.log('Закрыть')
+        contacts.classList.remove('isVisible')
     })
 })
 
 //     ===================================== hamburger-menu ================================
     const openMenuBtn = document.querySelector('#burger')
     const mobileMenu = document.querySelector('.nav-mobile')
-    const closeMenu = document.querySelector('.header__burger-btn')
     
     openMenuBtn.addEventListener('click', function () {
         console.log('click')
@@ -30,6 +35,7 @@ const form = document.forms["form"];
 const formArr = Array.from(form);
 const validFormArr = [];
 const button = form.elements["button"];
+const closeBtn = document.querySelector('.close-btn');
 
 formArr.forEach((el) => {
     if (el.hasAttribute("data-reg")) {
@@ -58,10 +64,6 @@ function inputCheck(el) {
         el.setAttribute("is-valid", "0");
         el.style.border = "2px solid rgb(255, 0, 0)";
     }
-}
-
-function buttonHandler(e) {
-    const isAllValid = [];
 }
 
 function formCheck(e) {
@@ -110,7 +112,6 @@ function formReset() {
         el.style.border = "none";
     });
 }
-
 // ================================================================================================
 
 

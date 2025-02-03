@@ -119,17 +119,28 @@
     background: rgb(0, 0, 207);
 }
 
+.close-btn {
+    position: absolute;
+    top: 25px;
+}
+
 @media (max-width: 800px) {
     .content {
         height: 100%;
         flex-direction: column-reverse;
     }
+
     .left-side {
         margin-top: 50px;
         flex-direction: row;
         width: 100%;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .close-btn {
+        right: 10px;
+        width: 35px;
+        height: 35px;
     }
     .details {
         margin-right: 20px;
