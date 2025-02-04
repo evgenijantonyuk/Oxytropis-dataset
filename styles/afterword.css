@@ -9,6 +9,11 @@
 
 .person__teacher {
     font-weight: 500;
+    transition: color .3s;
+}
+
+.person__teacher:hover {
+    color: #808080;
 }
 
 .person__teacher_frame {
