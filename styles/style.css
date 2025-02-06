@@ -298,6 +298,11 @@ body {
     background-color: #cfdffc;
 }
 
+.footer__text {
+    max-width: 600px;
+    line-height: 2rem;
+}
+
 /*=================* modal =====================*/
 .contacts-button {
     border: 1px solid #845fef;

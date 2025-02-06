@@ -36,15 +36,6 @@
     text-indent: 30px;
     margin-bottom: 10px;
 }
-/* ====================== footer ============================ */
-.footer__afterword {
-    flex-direction: column;
-}
-
-.footer__text {
-    max-width: 600px;
-    line-height: 2rem;
-}
 /* ========================================================== */
 @media (max-width: 365px) {
     .person__teacher_frame {
