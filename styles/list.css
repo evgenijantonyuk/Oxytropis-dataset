@@ -177,7 +177,13 @@
     margin: 0;
 }
 
+.publication-link:active {
+    color: #808080;
+}
 .publication-link:hover {
+    color: #808080;
+}
+.publication-link:focus {
     color: #808080;
 }
 
@@ -219,16 +225,18 @@
     font-style: italic;
 }
 
-.species__name-lat:hover {
+.species__name-lat a:active {
+    color: #808080;
+}
+.species__name-lat a:hover {
+    color: #808080;
+}
+.species__name-lat a:focus {
     color: #808080;
 }
 
 .species__note {
     font-size: 14px;
-}
-
-mark {
-    background-color: coral;
 }
 
 .species__name-lat.hide {

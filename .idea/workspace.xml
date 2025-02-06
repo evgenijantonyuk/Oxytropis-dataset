@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15bd600b-6f7a-4473-8ce1-68b52c87b88b" name="Changes" comment="form btn css">
-      <change afterPath="$PROJECT_DIR$/styles/send_mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterword.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key.html" beforeDir="false" afterPath="$PROJECT_DIR$/key.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/afterword.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/afterword.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/key.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/key.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +142,7 @@
       <workItem from="1737020541174" duration="159762000" />
       <workItem from="1738609403776" duration="330000" />
       <workItem from="1738609919483" duration="10223000" />
-      <workItem from="1738696006523" duration="21864000" />
+      <workItem from="1738696006523" duration="23853000" />
     </task>
     <task id="LOCAL-00001" summary="new commite">
       <created>1705519964233</created>

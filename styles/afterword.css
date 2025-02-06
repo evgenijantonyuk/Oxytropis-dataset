@@ -12,9 +12,16 @@
     transition: color .3s;
 }
 
+.person__teacher:active {
+    color: #808080;
+}
 .person__teacher:hover {
     color: #808080;
 }
+.person__teacher:focus {
+    color: #808080;
+}
+
 
 .person__teacher_frame {
     border: 2px solid #000;
@@ -40,8 +47,22 @@
     border: 1px solid #a087e8;
     box-shadow: 1px 1px 1px #a087e8;
     border-radius: 15px;
-
+    transition: color .3s;
 }
+
+.footer-btn__send:active {
+    background: #9e80f5;
+    border: 1px solid #845fef;
+}
+.footer-btn__send:hover {
+    background: #9e80f5;
+    border: 1px solid #845fef;
+}
+.footer-btn__send:focus {
+    background: #9e80f5;
+    border: 1px solid #845fef;
+}
+
 
 .footer__text {
     max-width: 600px;
