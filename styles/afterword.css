@@ -12,16 +12,9 @@
     transition: color .3s;
 }
 
-.person__teacher:active {
-    color: #808080;
-}
 .person__teacher:hover {
     color: #808080;
 }
-.person__teacher:focus {
-    color: #808080;
-}
-
 
 .person__teacher_frame {
     border: 2px solid #000;
@@ -36,16 +29,8 @@
     text-indent: 30px;
     margin-bottom: 10px;
 }
-/* ====================== footer ============================ */
-.footer__afterword {
-    flex-direction: column;
-}
 
-.footer__text {
-    max-width: 600px;
-    line-height: 2rem;
-}
-/* ========================================================== */
+
 @media (max-width: 365px) {
     .person__teacher_frame {
         padding: 1.5px;
