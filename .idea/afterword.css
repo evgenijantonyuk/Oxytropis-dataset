@@ -29,25 +29,8 @@
     text-indent: 30px;
     margin-bottom: 10px;
 }
-/* ====================== footer ============================ */
-.footer__afterword {
-    flex-direction: column;
-}
 
-.footer-btn__send {
-    padding: 5px 10px;
-    background: #bfacf5;
-    border: 1px solid #a087e8;
-    box-shadow: 1px 1px 1px #a087e8;
-    border-radius: 15px;
 
-}
-
-.footer__text {
-    max-width: 600px;
-    line-height: 2rem;
-}
-/* ========================================================== */
 @media (max-width: 365px) {
     .person__teacher_frame {
         padding: 1.5px;
