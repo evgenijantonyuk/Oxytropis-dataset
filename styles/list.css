@@ -115,7 +115,7 @@
     content: '';
     width: 1px;
     height: 15px;
-    background: #999;
+    background: #2a2828;
     transform: rotate(45deg);
 }
 
@@ -124,7 +124,7 @@
     content: '';
     width: 1px;
     height: 15px;
-    background: #999;
+    background: #2a2828;;
     transform: rotate(-45deg)
 }
 
@@ -132,9 +132,6 @@
     display: none;
 }
 
-.species__name-lat_blue {
-    background: #8fb0ec;
-}
     /*============= genus ==================*/
 .genus {
     margin: 0;
