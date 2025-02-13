@@ -1,41 +1,88 @@
 document.addEventListener('DOMContentLoaded', () => {
     //     ======== Finding ============
-    document.querySelector('#input').oninput = function () {
-        let val = this.value.trim().toLowerCase()
-        let searchItems = document.querySelectorAll('.search')
-        if (val !== '') {
-            searchItems.forEach(function (elem) {
-                if (elem.innerText.search(val) === -1) {
-                    elem.classList.add('hide')
-                    elem.innerHTML = elem.innerText
-                } else {
-                    elem.classList.remove('hide')
-                    let str = elem.innerText
-                    elem.innerHTML = insertMark(str, elem.innerText.search(val), val.length)
+    const icon = document.querySelector('.icon')
+    const blockSearch = document.querySelector('.block-search')
+    const searchClear = document.querySelector('.clear')
+    let input = document.querySelector('#mySearch')
+    
+    icon.onclick = function () {
+        blockSearch.classList.toggle('active')
+    }
+    
+    searchClear.onclick = function () {
+        document.getElementById('mySearch').value = ''
+    }
+    
+    
+    input.oninput = function () {
+        let value = this.value.trim().toLowerCase()
+        let list = document.querySelectorAll('.species__block')
+        let genus = document.querySelectorAll('.genus')
+        let subgenus = document.querySelectorAll('.subgenus')
+        let section = document.querySelectorAll('.section')
+        
+        if (value !== '') {
+            list.forEach(elem => {
+                if (elem.innerText.search(value) === -1) {
+                    elem.classList.add('input-hide')
                 }
             })
         } else {
-            searchItems.forEach(function (elem) {
-                elem.classList.remove('hide')
-                elem.innerHTML = elem.innerText
+            list.forEach(elem => {
+                elem.classList.remove('input-hide')
+            })
+        }
+        
+        if (value !== '') {
+            genus.forEach(elem => {
+                if (elem.innerText.search(value) === -1) {
+                    elem.classList.add('input-hide')
+                }
+            })
+        } else {
+            genus.forEach(elem => {
+                elem.classList.remove('input-hide')
+            })
+        }
+        
+        if (value !== '') {
+            section.forEach(elem => {
+                if (elem.innerText.search(value) === -1) {
+                    elem.classList.add('input-hide')
+                }
+            })
+        } else {
+            section.forEach(elem => {
+                elem.classList.remove('input-hide')
+            })
+        }
+        
+        if (value !== '') {
+            subgenus.forEach(elem => {
+                if (elem.innerText.search(value) === -1) {
+                    elem.classList.add('input-hide')
+                }
+            })
+        } else {
+            subgenus.forEach(elem => {
+                elem.classList.remove('input-hide')
             })
         }
     }
     
-    function insertMark(symbols, position, len) {
-        return symbols.slice(0, position) + '<mark>' + symbols.slice(position, position + len) + '</mark>' + symbols.slice(position + len)
-    }
-    
-    //     ===================================== hamburger-menu ================================
-    const openMenuBtn = document.querySelector('.header__burger-btn')
-    const mobileMenu = document.querySelector('.nav-mobile')
-    const closeMenu = document.querySelector('.header__burger-btn')
-    
-    openMenuBtn.addEventListener('click', function () {
+//     ===================================== hamburger-menu ================================
+    const burgerOpenMenuBtn = document.querySelector('.header__burger-btn')
+    const burgerMobileMenu = document.querySelector('.nav-mobile')
+    const burgerCloseMenu = document.querySelector('.header__burger-btn')
+
+    burgerOpenMenuBtn.addEventListener('click', function () {
         console.log('click')
-        mobileMenu.classList.toggle('active')
-        closeMenu.classList.toggle('active')
+        burgerMobileMenu.classList.toggle('active')
+        burgerCloseMenu.classList.toggle('active')
     })
+    
+
 })
-//  =====================================
+
+
 

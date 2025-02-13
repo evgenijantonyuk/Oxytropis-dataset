@@ -1,10 +1,12 @@
-//     ===================================== hamburger-menu ================================
-const openMenuBtn = document.querySelector('#key-burger')
-const mobileMenu = document.querySelector('.nav-mobile')
-const closeMenu = document.querySelector('.header__burger-btn')
 
-openMenuBtn.addEventListener('click', function () {
+//     ===================================== hamburger-menu ================================
+const burgerOpenMenuBtn = document.querySelector('#key-burger')
+const burgerMobileMenu = document.querySelector('.nav-mobile')
+const burgerCloseMenu = document.querySelector('.header__burger-btn')
+
+burgerOpenMenuBtn.addEventListener('click', function () {
     console.log('click')
-    mobileMenu.classList.toggle('active')
-    closeMenu.classList.toggle('active')
+    burgerMobileMenu.classList.toggle('active')
+    burgerCloseMenu.classList.toggle('active')
 })
+

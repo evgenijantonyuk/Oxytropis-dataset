@@ -11,8 +11,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 	<link href="./styles/list.css" rel="stylesheet">
-	<script defer src="./js/main.js"></script>
-	<script defer src="./js/list.js"></script>
 </head>
 
 <body>
@@ -24,8 +22,12 @@
 			<span class="logo__text">Алтайский<br> государственный<br> университет</span>
 		</div>
 		
-		<div class="form__control-grope">
-			<input id="input" class="input-text" type="text" placeholder="Поиск по странице">
+		<div class="block-search">
+			<div class="icon"></div>
+			<div class="search-input">
+				<input type="text" id="mySearch" class="search-input__text" placeholder="поиск вида">
+			</div>
+			<span class="clear"></span>
 		</div>
 		
 		<div class="asu-usbs">
@@ -78,7 +80,7 @@
 			</ul>
 		</nav>
 	</div>
-	<!--	================     -->
+	<!--	================  main-list ========================   -->
 	<div class="main-content">
 		<section class="species__list">
 			<h2 class="species__title">Конспект видов рода&nbsp;Oxytropis&nbsp;DC.<br> Алтайской горной страны</h2>
@@ -3220,5 +3222,8 @@
 <footer class="footer">
 	<p>&#169; Антонюк Е. В.</p>
 </footer>
+
+<script defer src="./js/list.js"></script>
+<script defer src="./js/main.js"></script>
 </body>
 </html>
