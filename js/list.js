@@ -2,16 +2,16 @@ document.addEventListener('DOMContentLoaded', () => {
     //     ======== Finding ============
     const icon = document.querySelector('.icon')
     const blockSearch = document.querySelector('.block-search')
-    const searchClear = document.querySelector('.clear')
+    // const searchClear = document.querySelector('.clear')
     let input = document.querySelector('#mySearch')
     
     icon.onclick = function () {
         blockSearch.classList.toggle('active')
     }
     
-    searchClear.onclick = function () {
-        document.getElementById('mySearch').value = ''
-    }
+    // searchClear.onclick = function () {
+    //     document.getElementById('mySearch').value = ''
+    // }
     
     
     input.oninput = function () {
@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
             list.forEach(elem => {
                 if (elem.innerText.search(value) === -1) {
                     elem.classList.add('input-hide')
+                } else {
+                    elem.classList.remove('input-hide')
                 }
             })
         } else {
@@ -38,6 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (elem.innerText.search(value) === -1) {
                     elem.classList.add('input-hide')
                 }
+                else {
+                    elem.classList.remove('input-hide')
+                }
             })
         } else {
             genus.forEach(elem => {
@@ -50,6 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (elem.innerText.search(value) === -1) {
                     elem.classList.add('input-hide')
                 }
+                else {
+                    elem.classList.remove('input-hide')
+                }
             })
         } else {
             section.forEach(elem => {
@@ -61,6 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
             subgenus.forEach(elem => {
                 if (elem.innerText.search(value) === -1) {
                     elem.classList.add('input-hide')
+                }
+                else {
+                    elem.classList.remove('input-hide')
                 }
             })
         } else {
