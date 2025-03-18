@@ -24,6 +24,7 @@ body {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     background: #eefdec;
     line-height: 1.5em;
+    scroll-behavior: smooth;
 }
 
 
@@ -324,6 +325,14 @@ body {
     background: #9e80f5;
     border: 1px solid #845fef;
     color: #ffffff;
+}
+
+/*+++++++++++++++++++++++++++*/
+.form__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 /*===============================================*/
 @media screen and (max-width: 875px) {

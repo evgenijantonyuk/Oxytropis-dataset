@@ -257,7 +257,8 @@
 }
 
 .species__block_mistake {
-    color: #835934;
+    color: #000;
+    font-style: italic;
 }
 
 .species__number {
@@ -322,7 +323,7 @@
 }
 
 .species__spread-local_coerulea {
-    color: #E20338;
+    color: #000;
 }
 
 .species__name-lat {
