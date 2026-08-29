@@ -1,0 +1,407 @@
+
+/*================== main ===================*/
+.main__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.species__title {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.species__list {
+    padding: 0 15px;
+}
+
+.genus__type_oxytropis {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* =========== search ================ */
+.block-search {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background: #cfdffc;;
+    border-radius: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0 0 3px #9cbaf1;
+}
+
+.block-search .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #cfdffc;;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 25;
+    cursor: pointer;
+}
+
+.block-search .icon:before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 2px solid #9cbaf1;
+    border-radius: 50%;
+    transform: translate(-2px, -2px);
+}
+
+.block-search .icon:after {
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 12px;
+    background: #9cbaf1;
+    transform: translate(8px, 8px) rotate(-45deg);
+}
+
+.block-search.active {
+    width: 360px;
+}
+
+.block-search .search-input {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-search .search-input input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+/*.clear {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    right: 15px;*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*    cursor: pointer;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    transform: translateY(-50%);*/
+/*}*/
+
+/*.clear:before {*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    width: 1px;*/
+/*    height: 15px;*/
+/*    background: #2a2828;*/
+/*    transform: rotate(45deg);*/
+/*}*/
+
+/*.clear:after {*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    width: 1px;*/
+/*    height: 15px;*/
+/*    background: #2a2828;;*/
+/*    transform: rotate(-45deg)*/
+/*}*/
+
+.input-hide {
+    display: none;
+}
+
+    /*============= genus ==================*/
+.genus {
+    margin: 0;
+}
+
+.genus__type {
+    margin: 0;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.genus-title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.genus__type {
+    margin: 0;
+}
+
+.genus__description {
+    margin: 0;
+    margin-bottom: 10px;
+    text-indent: 30px;
+}
+/*============================*/
+
+.species__genus {
+    margin: 0;
+}
+
+.species__history {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    margin: 0;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.species__subgenus {
+    margin: 0;
+}
+
+.species__section {
+    margin: 0;
+}
+
+.species__literature {}
+
+.species__type {
+    margin: 0;
+}
+
+/*================= subgenus ============================*/
+.subgenus {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.subgenus__title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.subgenus__description {
+    text-indent: 30px;
+}
+/*====================== section ========================*/
+.section {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.species__section-name {
+    font-weight: 700;
+    font-style: italic;
+    color: #000000;
+}
+
+.species__section {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section__type {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section__type-name {
+    font-style: italic;
+}
+
+.section__description {
+    text-indent: 30px;
+}
+
+.section-history {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+/*=========================================================*/
+
+.species__block {
+    margin: 0;
+    padding-bottom: 15px;
+    text-indent: 30px;
+}
+
+.species__block_mistake {
+    color: #000;
+    font-style: italic;
+}
+
+.species__number {
+    font-weight: bold;
+}
+
+.species__name-lat {
+    font-weight: bold;
+}
+.species__name-lat_color {
+    color: #113c8a;
+}
+
+.species__author {
+    font-weight: 400;
+}
+
+.species__synonym {
+    font-style: italic;
+}
+
+.species__name-ru {
+    font-style: italic;
+}
+
+.species-literature {
+    margin: 0;
+}
+
+.publication-link:active {
+    color: #808080;
+}
+.publication-link:hover {
+    color: #808080;
+}
+.publication-link:focus {
+    color: #808080;
+}
+
+.species__place {
+    margin: 0;
+}
+
+.species__protolog {
+    margin: 0;
+}
+
+.species__eco {
+    margin: 0;
+}
+
+.species__spread {
+    margin: 0;
+}
+
+.species__spread-general {
+    margin: 0;
+}
+
+.species__spread-local {
+    margin: 0;
+}
+
+.species__spread-local_coerulea {
+    color: #000;
+}
+
+.species__name-lat {
+    font-size: 18px;
+    transition: color .3s;
+}
+
+.species__name-lat_link {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.species__name-lat a:active {
+    color: #808080;
+}
+.species__name-lat a:hover {
+    color: #808080;
+}
+.species__name-lat a:focus {
+    color: #808080;
+}
+
+.species__note {
+    font-size: 14px;
+}
+
+.species__name-lat.hide {
+    display: none;
+}
+
+/* Button Up */
+.button__up {
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 60px;
+    height: 60px;
+    z-index: 99;
+    border-radius: 50%;
+    background-color: rgb(20, 3, 3);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    transition: right 0.2s ease-in-out;
+}
+.button__up:hover {
+    animation: icon 1s ease-in-out;
+}
+
+@keyframes icon {
+    0%,50%,100%{ bottom: 20px; }
+    25%,75% { bottom: 27px; }
+}
+
+.button__up.show {
+    right: 30px;
+}
+
+/*================== note ===================================*/
+
+
+/* media */
+@media screen and (max-width: 720px) {
+  .block-search {
+      width: 35px;
+      height: 35px;
+  }
+    .block-search .icon {
+        width: 35px;
+        height: 35px;
+    }
+    .block-search.active {
+        width: 260px;
+    }
+    .block-search .search-input {
+        height: 100%;
+    }
+}
+
+
+

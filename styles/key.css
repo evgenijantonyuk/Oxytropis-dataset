@@ -1,0 +1,83 @@
+
+/*================ main ========================*/
+.main__content {
+    width: 100%;
+}
+
+.key__header {
+    padding-top: 25px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.species-key {
+    padding: 25px 25px
+}
+
+.key__block {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.key__string {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.key__species {
+    width: 35%;
+    font-weight: bold;
+}
+/* ======================= hover ==================*/
+.key__species-block {
+    white-space: nowrap;
+}
+
+.species__name-lat {
+    font-size: 18px;
+    transition: color .3s;
+}
+
+.species__name-lat:active {
+    color: #808080;
+}
+.species__name-lat:hover {
+    color: #808080;
+}
+.species__name-lat:focus {
+    color: #808080;
+}
+
+/* Button Up */
+.button__up-key {
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 60px;
+    height: 60px;
+    z-index: 99;
+    border-radius: 50%;
+    background-color: rgb(20, 3, 3);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    transition: right 0.2s ease-in-out;
+}
+.button__up-key:hover {
+    animation: icon 1s ease-in-out;
+}
+
+@keyframes icon {
+    0%,50%,100%{ bottom: 20px; }
+    25%,75% { bottom: 27px; }
+}
+
+.button__up-key.show {
+    right: 30px;
+}
+
+/*================ footer =============================*/
