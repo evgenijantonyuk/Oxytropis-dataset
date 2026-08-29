@@ -355,7 +355,7 @@
 }
 
 /* Button Up */
-.button__up {
+.button__up-list {
     position: fixed;
     bottom: 20px;
     right: -100px;
@@ -369,7 +369,7 @@
     border: none;
     transition: right 0.2s ease-in-out;
 }
-.button__up:hover {
+.button__up-list:hover {
     animation: icon 1s ease-in-out;
 }
 

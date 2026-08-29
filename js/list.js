@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         burgerCloseMenu.classList.toggle('active')
     })
 
-    const buttonTop = document.querySelector('.button__up')
+    const buttonTop = document.querySelector('.button__up-list')
 
     const showButton = () => {
         window.addEventListener('scroll', () => {
