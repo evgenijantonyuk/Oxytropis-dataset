@@ -378,7 +378,7 @@
     25%,75% { bottom: 27px; }
 }
 
-.button__up.show {
+.button__up-list.show {
     right: 30px;
 }
 
