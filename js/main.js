@@ -15,19 +15,30 @@ document.addEventListener('DOMContentLoaded', function(){
         closeMenu.classList.toggle('active')
     })
     //     ====================================== modal ===================================
-    
-    const buttonShow = document.querySelector('.contacts-button')
-    const contacts = document.querySelector('.contacts')
-    const formCloseBtn = document.querySelector('.form__close-btn')
-    
-    buttonShow.addEventListener('click', function(){
-        // console.log('click')
-        contacts.classList.add('isVisible')
-    })
-    
-    formCloseBtn.addEventListener('click', function(){
-        contacts.classList.remove('isVisible')
-    })
+    const buttonShow = document.querySelector('.contacts-button');
+    const contacts = document.querySelector('.contacts');
+    const formCloseBtn = document.querySelector('.form__close-btn');
+
+// 1. Открытие окна
+    buttonShow.addEventListener('click', function() {
+        contacts.classList.add('isVisible');
+    });
+
+// 2. Закрытие по кнопке «Крестик»
+    formCloseBtn.addEventListener('click', function() {
+        contacts.classList.remove('isVisible');
+    });
+
+// 3. НОВОЕ: Закрытие при клике вне окна (по темному фону)
+    contacts.addEventListener('click', function(event) {
+        // Если кликнули непосредственно по обертке .contacts,
+        // а не по форме или тексту внутри нее
+        if (event.target === contacts) {
+            contacts.classList.remove('isVisible');
+        }
+    });
+
+
 
 // ======================================== form ======================================
     const form = document.forms["form"];
