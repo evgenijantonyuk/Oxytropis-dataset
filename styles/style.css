@@ -265,7 +265,6 @@ body {
     margin: 0;
     padding: 0 15px;
     text-indent: 30px;
-    /*line-height: 1.5;*/
 }
 
 .ags__link:active {
@@ -279,7 +278,7 @@ body {
 }
 /* gallery */
 #gallery {
-    /*max-width: 1100px;*/
+    max-width: 1100px;
     margin: 0 auto;
     margin-bottom: 15px;
 }
@@ -384,10 +383,8 @@ body {
 
     .left-side {
         margin-top: 50px;
-        flex-direction: row;
-        width: 100%;
+        width: 100% !important;
         justify-content: center;
-        flex-wrap: wrap;
     }
     .form__close-btn {
         width: 30px;
@@ -402,8 +399,8 @@ body {
         display: none;
     }
     .right-side {
-        width: 100%;
-        margin-left: 0;
+
+        justify-content: center;
     }
 }
 
