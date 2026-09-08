@@ -376,6 +376,38 @@ body {
     }
 }
 
+@media (max-width: 800px) {
+    .content {
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .left-side {
+        margin-top: 50px;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .form__close-btn {
+        width: 30px;
+    }
+    .details {
+        margin-right: 20px;
+    }
+    .details:last-child {
+        margin-right: 0;
+    }
+    .left-side::before {
+        display: none;
+    }
+    .right-side {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
 @media screen and (max-width: 720px) {
     .logo__text {
         display: none;
